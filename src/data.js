@@ -7,9 +7,9 @@ export const profile = {
   photo: "/photo.jpg", // put your photo at public/photo.jpg
   cv: "/Sachini-Sharadi-CV.pdf", // put your CV at public/Sachini-Sharadi-CV.pdf
   links: {
-    linkedin: "www.linkedin.com/in/sachini-sharadi]",
-    github: "https://github.com/sharadi2002]",
-    email: "sachinisharadi86@gmail.com]",
+    linkedin: "www.linkedin.com/in/sachini-sharadi",
+    github: "https://github.com/sharadi2002",
+    email: "sachinisharadi86@gmail.com",
   },
 };
 
