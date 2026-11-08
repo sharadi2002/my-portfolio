@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
-import { About, Education, Skills, Certifications, Contact } from "./components/Sections";
+import { About, Education, Skills, Contact } from "./components/Sections";
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
         <Education />
         <Skills />
         <Projects />
-        <Certifications />
+        
         <Contact />
       </main>
     </>

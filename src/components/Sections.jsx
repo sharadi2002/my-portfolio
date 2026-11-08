@@ -1,4 +1,4 @@
-import { about, education, skills, certifications, profile } from "../data";
+import { about, education, skills, profile } from "../data";
 import { Section, Tag } from "./ui";
 
 export function About() {
@@ -55,20 +55,7 @@ export function Skills() {
   );
 }
 
-export function Certifications() {
-  return (
-    <Section id="certifications" title="Certifications and achievements">
-      <ul className="divide-y divide-beige border-y border-beige">
-        {certifications.map((c, i) => (
-          <li key={i} className="flex flex-col justify-between gap-1 py-5 sm:flex-row sm:items-baseline">
-            <span className="font-serif text-xl">{c.title}</span>
-            <span className="text-mute">{c.issuer}, {c.year}</span>
-          </li>
-        ))}
-      </ul>
-    </Section>
-  );
-}
+
 
 export function Contact() {
   const { linkedin, github, email } = profile.links;
